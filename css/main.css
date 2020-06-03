@@ -313,9 +313,14 @@ h2 {
     text-align: center;
 }
 
+.irarticulo img:hover {
+    filter: grayscale(0);
+}
+
 .irarticulo img {
     border-radius: 10%;
     filter: grayscale(80%);
+    transition-duration: 1s;
 }
 
 @media (min-width: 768px) {
@@ -339,6 +344,7 @@ h2 {
     color: rgb(218, 127, 172);
     font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 
