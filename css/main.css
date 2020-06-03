@@ -186,6 +186,11 @@ header {
     color: white;
 }
 
+.titulo a {
+    text-decoration: none;
+    color: white;
+}
+
 @media (min-width: 768px) {
     .titulo {
         font-size: 60px;
@@ -245,6 +250,9 @@ header {
     }
     .menu-movil:first {
         margin: 0;
+    }
+    .menu-movil .prod {
+        display: none;
     }
 }
 
