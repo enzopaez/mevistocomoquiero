@@ -148,7 +148,7 @@ img {
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .btn {
         display: inline-block;
         flex: 0 0 auto;
@@ -191,7 +191,7 @@ header {
     color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .titulo {
         font-size: 60px;
     }
@@ -230,7 +230,7 @@ header {
     display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .menu-movil .principal {
         display: flex;
     }
@@ -299,7 +299,7 @@ h2 {
     font-size: 25px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .destacados1 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -329,7 +329,7 @@ h2 {
     transition-duration: 1s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .irarticulo img {
         width: 67%;
         transition-duration: 0.5s;
@@ -365,7 +365,7 @@ iframe {
     height: 400px
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .mapa {
         text-align: center;
     }
@@ -418,7 +418,7 @@ footer {
     padding-bottom: 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .iconos-footer {
         display: block;
         text-align: center;
