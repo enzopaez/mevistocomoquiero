@@ -278,6 +278,7 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5px;
     text-align: center;
+    align-items: center;
 }
 
 .destacados1 .nombre {
