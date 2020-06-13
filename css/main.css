@@ -445,6 +445,45 @@ footer {
     text-align: center;
 }
 
+/* SLDOER */
+body {
+    
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+  }
+
+  .contenido2 p {
+      text-align: center;
+      
+  }
+
+  .contenido2 .precio{
+    margin: 1px auto;
+    
+    color: rgb(218, 127, 172);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .contenido2 .nombre{
+    margin-top: 4px;
+    margin-bottom: 3px;
+    font-size: 20px;
+  }
+
 
 /* ==========================================================================
    Helper classes

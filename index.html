@@ -16,9 +16,11 @@
     </script>
 
     <meta charset="utf-8">
-    <title></title>
+    <title>Me visto como quiero</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
@@ -26,13 +28,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="/css/lightbox.css rel=" stylesheet " />
-
-
     <link rel="stylesheet " href="css/normalize.css ">
-    <link rel="stylesheet " href="css/main.css ">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet " href="css/whatsapp.css ">
     <link rel="stylesheet " href="css/lightbox.css ">
+    <link rel="stylesheet " href="css/main.css ">
 
 
     <meta name="theme-color " content="#fafafa ">
@@ -75,30 +75,62 @@
         </div>
     </header>
 
-    <section class="contenedor new ">
-        <p class="entrada ">Hacemos envios a domicilio, no dudes en consultar a nuestro WhatsApp (ubicado en la parte inferior derecha) 2645607283.</p>
-    <h2>NUEVOS!</h2>
-    <div class="destacados1 ">
-        <div class="articulo ">
-             <div class="foto ">
-                  <a href="fotos/camperas/parkas.jpg " data-lightbox="fotos "><img src="fotos/camperas/parkas.jpg " alt=" " ></a>
-             </div>
-        <div class="contenido ">
-            <p class="nombre ">Parkas</p>
-            <p class="precio ">$2800 / $3000</p>
-        </div>
-        </div>
-    <div class="articulo ">
-        <div class="foto ">
-            <a href="fotos/buzos/buzos adidas nuevos.jpg " data-lightbox="fotos "><img src="fotos/buzos/buzos adidas nuevos.jpg " alt=" "></a>
-        </div>
-        <div class="contenido ">
-            <p class="nombre ">Buzo Adidas S a XXL</p>
-            <p class="precio ">$1500</p>
-        </div>
-    </div>
-
-    </div>
+    <section class="contenedor new">
+        <p class="entrada ">Hacemos envios a domicilio, no dudes en consultar a nuestro WhatsApp (ubicado en la parte inferior derecha) o 2645607283.</p>
+        <h2>NUEVOS!</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide cajaimagen ">
+                  <div class="imgBx">
+                      <img src="/fotos/camperas/parkas.jpg" alt="">
+                  </div>
+                  <div class="contenido2">
+                    <p class="nombre ">Parkas L al 5XL</h3>
+                    <p class="precio ">$2800 / $3000 </p>
+                </div>
+              </div>
+              <div class="swiper-slide cajaimagen">
+                <div class="imgBx">
+                    <img src="/fotos/buzos/buzos adidas nuevos.jpg" alt="">
+                </div>
+                <div class="contenido2">
+                  <p class="nombre ">Buzo Adidas</h3>
+                  <p class="precio ">$1500</p>
+              </div>
+            </div>
+            <div class="swiper-slide cajaimagen">
+                <div class="imgBx">
+                    <img src="/fotos/pantalones/pantalones palazzos.jpg" alt="">
+                </div>
+                <div class="contenido2">
+                  <p class="nombre ">Palazzos lanillas</h3>
+                  <p class="precio ">$1100</p>
+              </div>
+            </div>
+            <div class="swiper-slide cajaimagen">
+                <div class="imgBx">
+                    <img src="/fotos/buzos/sweater hilo color salmon.jpg" alt="">
+                </div>
+                <div class="contenido2">
+                  <p class="nombre ">Sweater</h3>
+                  <p class="precio ">$590</p>
+              </div>
+            </div>
+            <div class="swiper-slide cajaimagen">
+                <div class="imgBx">
+                    <img src="/fotos/accesorios/cuellitoslana.jpg" alt="">
+                </div>
+                <div class="contenido2">
+                  <p class="nombre ">Cuellitos</h3>
+                  <p class="precio ">$250</p>
+              </div>
+            </div>
+              
+              
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>     
     </section>
     <hr>
 
@@ -180,24 +212,28 @@
 
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.js "></script>
     <script src="js/main.js "></script>
+    <script src="js/swiper.min.js "></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+    </script>
+    <script src="Scripts/jquery.excoloSlider.min.js"></script>
     <script src="js/lightbox.js "></script>
     <script src="https://kit.fontawesome.com/281001218a.js " crossorigin="anonymous "></script>
     <script src="js/vendor/modernizr-3.8.0.min.js "></script>

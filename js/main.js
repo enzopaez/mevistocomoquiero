@@ -1,7 +1,8 @@
 $(document).ready(main);
 
-
 function main() {
+
+    $("#slider").excoloSlider();
 
     var contador = 0;
     $(".gato").click(function() {
