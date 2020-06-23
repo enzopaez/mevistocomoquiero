@@ -260,7 +260,7 @@ header {
 /* NEW */
 
 .parpadea {
-  
+    font-size: 30px;
     animation-name: parpadea;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -350,9 +350,6 @@ h2 {
     text-align: center;
 }
 
-.irarticulo img:hover {
-    filter: brightness(1);
-}
 
 .irarticulo .texto {
     display: block;
@@ -362,8 +359,6 @@ h2 {
 }
 .irarticulo img {
     border-radius: 10%;
-    filter: brightness(0.5);
-    transition-duration: 1s;
 }
 
 @media (min-width: 850px) {
