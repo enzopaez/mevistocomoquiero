@@ -131,7 +131,7 @@ img {
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 1rem 3rem;
     margin: 10px 0;
@@ -351,12 +351,18 @@ h2 {
 }
 
 .irarticulo img:hover {
-    filter: grayscale(0);
+    filter: brightness(1);
 }
 
+.irarticulo .texto {
+    display: block;
+    background-color:  black;
+    opacity: 60% ;
+    width: 100%;
+}
 .irarticulo img {
     border-radius: 10%;
-    filter: grayscale(80%);
+    filter: brightness(0.5);
     transition-duration: 1s;
 }
 
@@ -364,6 +370,10 @@ h2 {
     .irarticulo img {
         width: 67%;
         transition-duration: 0.5s;
+    }
+
+    .irarticulo .texto {
+        width: 67%;
     }
 }
 
