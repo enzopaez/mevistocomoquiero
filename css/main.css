@@ -528,9 +528,12 @@ body {
 
   /* Tarjetas*/
 
+  .tarjetas {
+      text-align: center;
+  }
   .tarjetas img{
       width: 60%;
-      margin: 0 10px;
+      margin: 10px 10px;
   }
   .foto-tarjeta {
       display: grid;
@@ -548,7 +551,7 @@ body {
     }
     .tarjetas img{
         width: 50%;
-        margin: 0 20px;
+        margin: 0px 20px;
     }
 
 
