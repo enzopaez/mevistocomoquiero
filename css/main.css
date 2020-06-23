@@ -164,7 +164,7 @@ header {
 
 .barra {
     background-color: rgb(218, 127, 172);
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 .iconos a i {
@@ -206,7 +206,7 @@ header {
 /* MENU NAVEGAVION */
 
 .menu-movil {
-    padding-top: 20px;
+    padding-top: 0px;
     text-align: center;
     display: grid;
     font-size: 25px;
