@@ -526,6 +526,36 @@ body {
     font-size: 20px;
   }
 
+  /* Tarjetas*/
+
+  .tarjetas img{
+      width: 60%;
+      margin: 0 10px;
+  }
+  .foto-tarjeta {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      align-items: center;
+      gap: 10px;
+  }
+
+  @media (min-width: 850px) {
+    .foto-tarjeta {
+        
+        grid-template-columns: repeat(7,1fr);
+        align-items: center;
+        gap: 10px;
+    }
+    .tarjetas img{
+        width: 50%;
+        margin: 0 20px;
+    }
+
+
+}
+
+
+  
 
 /* ==========================================================================
    Helper classes
