@@ -167,6 +167,11 @@ header {
     padding-bottom: 5px;
 }
 
+.iconocasa {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
 .iconos a i {
     color: white;
     margin-right: 10px;
@@ -293,6 +298,7 @@ header {
 .entrada {
     text-align: center;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 h2 {
