@@ -395,7 +395,11 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+em {
+    opacity: 0.6;
+    text-decoration: line-through;
+    color: rgb(218, 127, 172);
+}
 
 /* MAPA */
 
